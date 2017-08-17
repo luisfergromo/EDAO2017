@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEBB3D5B1F45423E007B44A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DEBB3D5A1F45423E007B44A2 /* main.c */; };
+		DEBB3D601F454321007B44A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DEBB3D5F1F454321007B44A2 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		DEBB3D4F1F45422C007B44A2 /* Actividad1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Actividad1; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEBB3D591F45423E007B44A2 /* cesarCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cesarCipher.h; path = ../../../../Desktop/cesarCipher.h; sourceTree = "<group>"; };
-		DEBB3D5A1F45423E007B44A2 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../../../Desktop/main.c; sourceTree = "<group>"; };
+		DEBB3D5E1F454321007B44A2 /* cesarCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cesarCipher.h; sourceTree = "<group>"; };
+		DEBB3D5F1F454321007B44A2 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		DEBB3D511F45422C007B44A2 /* Actividad1 */ = {
 			isa = PBXGroup;
 			children = (
-				DEBB3D591F45423E007B44A2 /* cesarCipher.h */,
-				DEBB3D5A1F45423E007B44A2 /* main.c */,
+				DEBB3D5E1F454321007B44A2 /* cesarCipher.h */,
+				DEBB3D5F1F454321007B44A2 /* main.c */,
 			);
 			path = Actividad1;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBB3D5B1F45423E007B44A2 /* main.c in Sources */,
+				DEBB3D601F454321007B44A2 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +253,7 @@
 				DEBB3D581F45422C007B44A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
