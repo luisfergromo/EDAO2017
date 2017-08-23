@@ -52,11 +52,11 @@ int main(int argc, const char * argv[]) {
         //printf("%p\n",&m1[3][2]); //dirección del elemento en su posición 3x2
     char cadena[]="Hola";
     char cadena1[5]="Hola";
-    char cadena2[]={'H','o','l','a','\0'};
+    char cadena2[]={'h','o','l','a'};//,'\0'
 
     printf("%c\n",cadena[0]);
     printf("%s\n",cadena2);
 
 
-     return EXIT_SUCCESS;
+     return 0;
 }
