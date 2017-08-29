@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DE74602D1F5488090061172B"
-               BuildableName = "alinecio&#x301;n"
-               BlueprintName = "alinecio&#x301;n"
-               ReferencedContainer = "container:alinecio&#x301;n.xcodeproj">
+               BuildableName = "alineacion"
+               BlueprintName = "alineacion"
+               ReferencedContainer = "container:alineacion.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE74602D1F5488090061172B"
-            BuildableName = "alinecio&#x301;n"
-            BlueprintName = "alinecio&#x301;n"
-            ReferencedContainer = "container:alinecio&#x301;n.xcodeproj">
+            BuildableName = "alineacion"
+            BlueprintName = "alineacion"
+            ReferencedContainer = "container:alineacion.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE74602D1F5488090061172B"
-            BuildableName = "alinecio&#x301;n"
-            BlueprintName = "alinecio&#x301;n"
-            ReferencedContainer = "container:alinecio&#x301;n.xcodeproj">
+            BuildableName = "alineacion"
+            BlueprintName = "alineacion"
+            ReferencedContainer = "container:alineacion.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE74602D1F5488090061172B"
-            BuildableName = "alinecio&#x301;n"
-            BlueprintName = "alinecio&#x301;n"
-            ReferencedContainer = "container:alinecio&#x301;n.xcodeproj">
+            BuildableName = "alineacion"
+            BlueprintName = "alineacion"
+            ReferencedContainer = "container:alineacion.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

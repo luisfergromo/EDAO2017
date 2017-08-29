@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DE74602E1F5488090061172B /* alineción */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "alineción"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE74602E1F5488090061172B /* alineacion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = alineacion; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7460311F5488090061172B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		DE7460251F5488090061172B = {
 			isa = PBXGroup;
 			children = (
-				DE7460301F5488090061172B /* alineción */,
+				DE7460301F5488090061172B /* alineacion */,
 				DE74602F1F5488090061172B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,26 @@
 		DE74602F1F5488090061172B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE74602E1F5488090061172B /* alineción */,
+				DE74602E1F5488090061172B /* alineacion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE7460301F5488090061172B /* alineción */ = {
+		DE7460301F5488090061172B /* alineacion */ = {
 			isa = PBXGroup;
 			children = (
 				DE7460311F5488090061172B /* main.c */,
 			);
+			name = alineacion;
 			path = "alineción";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE74602D1F5488090061172B /* alineción */ = {
+		DE74602D1F5488090061172B /* alineacion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE7460351F5488090061172B /* Build configuration list for PBXNativeTarget "alineción" */;
+			buildConfigurationList = DE7460351F5488090061172B /* Build configuration list for PBXNativeTarget "alineacion" */;
 			buildPhases = (
 				DE74602A1F5488090061172B /* Sources */,
 				DE74602B1F5488090061172B /* Frameworks */,
@@ -77,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = "alineción";
+			name = alineacion;
 			productName = "alineción";
-			productReference = DE74602E1F5488090061172B /* alineción */;
+			productReference = DE74602E1F5488090061172B /* alineacion */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE7460291F5488090061172B /* Build configuration list for PBXProject "alineción" */;
+			buildConfigurationList = DE7460291F5488090061172B /* Build configuration list for PBXProject "alineacion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE74602D1F5488090061172B /* alineción */,
+				DE74602D1F5488090061172B /* alineacion */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +236,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE7460291F5488090061172B /* Build configuration list for PBXProject "alineción" */ = {
+		DE7460291F5488090061172B /* Build configuration list for PBXProject "alineacion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE7460331F5488090061172B /* Debug */,
@@ -244,13 +245,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE7460351F5488090061172B /* Build configuration list for PBXNativeTarget "alineción" */ = {
+		DE7460351F5488090061172B /* Build configuration list for PBXNativeTarget "alineacion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE7460361F5488090061172B /* Debug */,
 				DE7460371F5488090061172B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
