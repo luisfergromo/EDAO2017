@@ -16,18 +16,14 @@ typedef struct{
     int Existencia;//4bytes
     unsigned int pUnitario; //4bytes
 }PRODUCTO;//20bytes
-
-
-int main(int argc, const char * argv[]) {
-    printf("El tamaño de producto es: %d\n",sizeof(PRODUCTO));
-
-     /*
-      1) Escriba un programa en C que, al recibir como dato un arreglo unidimensional
+void act1(){
+    /*
+     1) Escriba un programa en C que, al recibir como dato un arreglo unidimensional
      desordenado de	N enteros, obtenga como	salida ese mismo arreglo, pero sin los elementos repetidos. (30 pts)
-      */
+     */
     int N,i,j;
     int a[100];
-    int b[100];
+//    int b[100];
     scanf("%d",&N);
     if((N>=1) && (N<100)){
             //printf("%d\n",N);
@@ -37,9 +33,15 @@ int main(int argc, const char * argv[]) {
             //comparar valores de de uno por uno
         for(j=0;j<N;j++){
 
-                    //b[i]=a[i];
-                printf("%d ",a[j]);
+                //b[i]=a[i];
+            printf("%d ",a[j]);
         }
     }
+}
+void act2(){
+     printf("El tamaño de producto es: %lu\n",sizeof(PRODUCTO));
+}
+int main(int argc, const char * argv[]) {
+//    act1();
     return 0;
 }
