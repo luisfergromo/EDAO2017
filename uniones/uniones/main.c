@@ -39,7 +39,6 @@ int main(int argc, const char * argv[]) {
     c.uC[3]=3;
     printf("Red:%d\nGreen:%d\nBlue:%d\nAlpha:%d\n",
            c.rgb.red,c.rgb.green,c.rgb.blue,c.rgb.alpha);
-
 //    u1 u;
 //    printf("Tamaño en bytes: %lu\n",sizeof(u));
 //        //u.un=255;
