@@ -9,13 +9,25 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    char array[5]={1,2,3,4,5};
-    char *p;
+    int array[5]={1,2,3,4,5};
+    int *p;
 
     p=array; //Apunta a la dirección de memoria del primer elemento de array
 
-    printf("%d\n",*p);
-    p=&array[1];
-    printf("%d\n",*p);
+//    printf("%d\n",*p);
+//    printf("%p\n",p);
+//    p++; // recorre en (1byte) las direcciones de memoria
+//        //p=&array[1];
+//    printf("%d\n",*p);
+//    printf("%p\n",p);
+    for(int i=0;i<5;i++){
+        printf("%d\n",*p);
+        p++;
+    }
+    p=&array[3];
+    for(int i=0;i<5;i++){
+        printf("%d\n",*p);
+        p--;
+    }
     return 0;
 }
