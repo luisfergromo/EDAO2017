@@ -31,7 +31,7 @@ int main(int argc, const char * argv[]) {
         //printf("%d\n",duplicar2(&n));
     return 0;
 }
-void promedio(int longitud,float *valores){ //Es valido: void promedio(int longitud,float valores[]){ o float valores[5]
+void promedio(int longitud,float *valores){ //Es valido: void promedio(int longitud,float valores[]){ o float valores[]
     float suma = 0.0;
     int i;
     for (i=0; i<longitud; i++) {
