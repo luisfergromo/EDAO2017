@@ -33,17 +33,18 @@ typedef union{
 }COLOR;//4bytes por que int es el tipo de dato más grande.
 
 int main(int argc, const char * argv[]) {
-    printf("Tamaño en bytes: %lu\n",sizeof(COLOR));
-    COLOR c;
-    c.uInt=0;
-    c.uC[3]=3;
-    printf("Red:%d\nGreen:%d\nBlue:%d\nAlpha:%d\n",
-           c.rgb.red,c.rgb.green,c.rgb.blue,c.rgb.alpha);
-//    u1 u;
+//    printf("Tamaño en bytes: %lu\n",sizeof(COLOR));
+//    COLOR c;
+//    c.uInt=0;
+//    c.uC[3]=3;
+//    printf("Red:%d\nGreen:%d\nBlue:%d\nAlpha:%d\n",
+//           c.rgb.red,c.rgb.green,c.rgb.blue,c.rgb.alpha);
+
+        //    u1 u;
 //    printf("Tamaño en bytes: %lu\n",sizeof(u));
 //        //u.un=255;
 //    u.uc=-2;
 //    printf("Interpretado con signo: %d\nInterpretado sin signo: %d\n",u.uc,u.c);
-
+    
     return 0;
 }
