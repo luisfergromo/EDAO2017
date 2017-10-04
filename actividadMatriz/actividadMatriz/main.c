@@ -30,7 +30,7 @@ int main(int argc, const char * argv[]) {
     Date **date;
     date =(Date **)malloc(sizeof(Date *)*R);
     //validar la asignación de memoria
-    for (int i=0;i<(R); i++) { 
+    for (int i=0;i<3; i++) {
         date[i] = (Date *)malloc(sizeof(Date)*C);
         //validación de asignación de memoria
     }
