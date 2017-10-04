@@ -69,7 +69,15 @@ void imprimirElementos(Auto *a, int N){
 
 int main(int argc, const char * argv[]) {
     int N;
+    scanf("%d",&N);
     Auto *a = (Auto*)malloc(sizeof(Auto));
+//    a = (Auto*) realloc(a, sizeof(char)*N); malas prácticas asignar al mismo apuntador
+    Auto *temp =(Auto*)realloc(a, sizeof(Auto)*N);
+    if(temp!=NULL){
+        if(temp!=a)
+            free(a);
+        a=temp;
+    }
     //nRegistro(a);
     //imprimirElementos(a);
     
