@@ -27,7 +27,7 @@
 		DE15F4961FB37808006AFA54 /* listTDA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = listTDA; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE15F4991FB37808006AFA54 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DE15F4A01FB37822006AFA54 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
-		DE15F4A11FB37822006AFA54 /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		DE15F4A11FB37822006AFA54 /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

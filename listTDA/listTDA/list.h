@@ -10,5 +10,11 @@
 #define list_h
 
 #include <stdio.h>
+typedef void* Type;
+typedef struct strList *List;
 
+List list_create(void);
+unsigned int list_size(List l);
+void list_add(List, Type);
+Type list_get(List, int);
 #endif /* list_h */
