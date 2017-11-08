@@ -85,6 +85,7 @@ Type stack_pop(Stack s){
 }
 
 void stack_destroy(Stack s){
-
+//    free(s->top->data);
+    free(s);
 }
 
