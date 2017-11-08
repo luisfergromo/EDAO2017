@@ -11,7 +11,7 @@
 
 typedef struct {
     Type data;
-    struct strNode *prior, *next;
+     struct strNode *prior, *next;
 }strNode;
 
 typedef strNode Node;
@@ -61,7 +61,7 @@ void list_add(List l, Type data){//Agregar un elemento al final de la lista y Au
     
 }
 Type list_get(List l, int p){
-//    Type value = NULL;
+    Type value = NULL;
     int i=0;
     Node *current = NULL;
     if(l!=NULL){
@@ -72,9 +72,10 @@ Type list_get(List l, int p){
                 current = current->next;
                 i++;
             }
+              value= current->data;
         }
     }
-    return l;
+    return value;
 }
 
 
