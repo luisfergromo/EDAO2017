@@ -1,8 +1,8 @@
 # EDAO2017
 
-##Temas
-  -Memoria Dinámica
-  -Apuntadores
+## Temas
+  - Memoria Dinámica
+  - Apuntadores
 
 
 
