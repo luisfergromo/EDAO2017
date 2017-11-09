@@ -1,6 +1,6 @@
 # EDAO2017
 
-[Incluye archivos adjuntos] (https://github.com/luisfergromo/EDAO2017/blob/master/README.md#archivos-adjuntos)
+[Incluye archivos adjuntos](https://github.com/luisfergromo/EDAO2017/blob/master/README.md#archivos-adjuntos)
 
 ## Temas
   ### Memoria Dinámica
