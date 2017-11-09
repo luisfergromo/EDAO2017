@@ -1,6 +1,6 @@
 # EDAO2017
 
-Incluye archivos adjuntos[1]
+[1]Incluye archivos adjuntos
 
 ## Temas
   ### Memoria Dinámica
