@@ -78,4 +78,46 @@ Type list_get(List l, int p){
     return value;
 }
 
+void list_set(List l, Type data, int p){
+    int i=0;
+    Node *current = NULL;
+    if(l!=NULL){
+        if((p>=0)&&(p<(l->size))){
+            current=l->first;
+            while(i<p){
+                current = current->next;
+                i++;
+            }
+            current->data=data;
+        }
+    }
+}
+Type list_remove(List l, int p){
+    Node *current = NULL;
+    Type tmp;
+    int i=0;
+    if(l!=NULL){
+        if((p>=0)&&(p<(l->size))){
+            current=l->first;
+            while(i<p){
+                current = current->next;
+                i++;
+            }
+        // current->data=data;
+        }
+        if(p==0){ //eliminar el nodo inicial
+            tmp = current->data;
+            l->first=current->next;
+            l->first->prior=NULL;
+
+
+        }
+        if (p==(l->size)-1){
+
+        }
+        //si p no es 0 ni s-1 (si tiene un anterior y un siguiente)
+    }
+    return tmp;
+}
+
 

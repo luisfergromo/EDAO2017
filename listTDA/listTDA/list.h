@@ -17,4 +17,7 @@ List list_create(void);
 unsigned int list_size(List l);
 void list_add(List, Type);
 Type list_get(List, int);
+void list_set(List, Type, int);
+Type list_remove(List, int p);
+
 #endif /* list_h */
