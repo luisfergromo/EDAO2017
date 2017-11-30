@@ -1,7 +1,6 @@
 # EDAO2017
 
-## Proyecto Final
-     Grafo Genérico (https://github.com/luisfergromo/EDAO2017/files/1516536/Proyecto.-.Grafos.pdf)
+## Proyecto Final  [Grafo Genérico] (https://github.com/luisfergromo/EDAO2017/files/1516536/Proyecto.-.Grafos.pdf)
 
 ## Temas
   ### Memoria Dinámica
